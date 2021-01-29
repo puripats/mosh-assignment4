@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mosh-assignment4';
+  tweet ={
+    body: 'Mr Gob is da best',
+    isLiked:true,
+    likesCount:20
+  }
 }
